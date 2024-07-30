@@ -15,3 +15,63 @@
   .bg-color{
     background-color: rgba(17, 17, 17, 1);
   }
+  .orange{
+    color: #E6533C;
+  }
+  .display-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  header, main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+ 
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: linear-gradient(
+        180deg, rgba(41, 40, 40, 0.8) 0%
+        rgba(46, 44, 44, 0) 100%
+    );
+  }
+  nav h3{
+    font-weight: 800 Italic;
+    font-size: 2.2rem;
+    font-style: italic;
+  }
+  .navbar div{
+    width: 465px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid rgb(67, 64, 64);
+    border-radius: 46px;
+  }
+ .btn{
+  background-color: #E6533C;
+  color: whitesmoke;
+ }
+  .btn-home{
+    width: 92px;
+    height: 38px;
+    border: none;
+    border-radius: 46px;
+    margin-left: 0%;
+    padding-left:0%;
+    font-weight: 600;
+    font-size: 1.1rem;
+   }
+   .nav-links{
+    align-items: center;
+   }
+  .nav-item{
+    list-style: none;
+    margin-right: 45px;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 1.1rem;
+    color: whitesmoke;
+  }
