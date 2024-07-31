@@ -1,0 +1,35 @@
+.mile{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+}
+.mile-text{
+    width: 443px;
+    height: 290px;
+    padding-left: 54px;
+}
+.mile-title{
+    font-weight: 800;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-bottom: 14px;
+}
+.mile-description{
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5rem;
+    margin-bottom: 24px;
+}
+.mile-img{
+    width: 366px;
+    height: 312px;
+    margin: 30px;
+    border-radius: 18px;
+    position: relative;
+}
+.image{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    border-radius: 18px;
+}

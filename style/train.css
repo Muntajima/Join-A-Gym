@@ -1,0 +1,24 @@
+.training-text{
+    width: 671px;
+    height: 120;
+    text-align: start;
+}
+.row-1{
+    height: 200px;
+    display: grid;
+    grid-template-columns: .7fr 1.5fr .8fr;
+}
+.row-1 img{
+    width: 100%;
+    height: 100%;
+}
+.grid-box{
+    width: 1060px;
+    height: 400px;
+    overflow-y: hidden;
+}
+.row-2{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr .7fr .8fr;
+}
