@@ -12,4 +12,39 @@
     line-height: 24px;
     text-align: start;
 }
-
+.bmi-table{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    height: 490px;
+}
+.table-chart{
+    margin-left: 190px;
+    padding-top: 52px;
+}
+.bmi-chart{
+    font-weight: 900;
+    font-size: 28px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+}
+table,th, td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    text-align: start;
+    padding-left: 10px;
+}
+table{
+    width: 310px;
+    height: 216px;   
+}
+th{
+    font-weight: 500;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+td{
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
