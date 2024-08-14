@@ -1,0 +1,89 @@
+.container-goodlife{
+    max-width: 1440px;
+    max-height: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.good-title{
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: right;
+    margin-bottom: 100px;
+    color: whitesmoke
+}
+.goodbox-1{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 30px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.goodbox-2{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 30px;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+.goodbox-3{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 30px;
+    position: relative;
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+.goodlife-fitness{
+    width: 230px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(204, 36, 10);
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    position: relative;
+}
+.goodlife-fitness{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 80px;
+}
+.goodlife-fitness span{
+    font-style: italic;
+}
+.good-para{
+    width: 400px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+}
+.good-name{
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: start;
+    margin-top: 30px;
+}
+@media screen and (max-width: 576px){
+    .container-goodlife{
+        width: 60%;
+        margin-top: 450px;
+    }
+    .good-title{
+        font-size: 2rem;
+        text-align: right;
+    }
+    .goodbox-1, .goodbox-2, .goodbox-3{
+        width: 90%;
+        margin: 60px 60px 150px 0PX;
+    }
+    .good-para{
+        width: 90%;
+    }
+}

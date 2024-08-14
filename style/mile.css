@@ -27,7 +27,35 @@
     border-radius: 18px;
     position: relative;
 }
+.mile-img-full{
+    display: none;
+    width: 366px;
+    height: 312px;
+    margin: 30px;
+    border-radius: 18px;
+    position: relative;
+    
+}
 .image{
     position: absolute;
     border-radius: 18px;
+}
+@media screen and (max-width: 576px){
+    .mile-description{
+        width: 60%;
+        margin-left: 0px;
+    }
+    .mile-btn{
+        width: 300px;
+    }
+    .mile-img{
+        display: none;
+       
+    }
+    .mile-img-full{
+        display: block;
+        margin-top: 70px;
+        margin-left: 45px;
+    
+    }
 }

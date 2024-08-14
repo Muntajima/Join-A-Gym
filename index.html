@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="style/bmi.css">
     <link rel="stylesheet" href="style/team.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/goodlife.css">
+    <script src="https://kit.fontawesome.com/73b7ab6380.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="inter-normal bg-color">
@@ -27,7 +29,11 @@
                     <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                     <li class="nav-item"><a href="" class="nav-link">About</a></li>
                 </ul>
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
+            
         </nav>
         <section class="banner">
             <div class="banner-text">
@@ -111,10 +117,13 @@
                         We believe fitness should be accessible to everyone, everywhere, regardless of income or access
                         to a gym. With hundreds of professional workouts.
                     </p>
-                    <button class="mile-btn btn banner-btn">Join Now</button>
+                    <button class="mile-btn banner-btn">Join Now</button>
                 </div>
                 <div class="mile-img">
                     <img src="./images/run1.jpg" alt="" class="image">
+                </div>
+                <div class="mile-img-full">
+                    <img src="./images/runn.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -128,17 +137,17 @@
                 <div class="row-1">
                     <img src="./images/ex1.jpg" alt="">
                     <img src="./images/ex2.png" alt="">
-                    <img src="./images/ex3.png" alt="">
+                    <img src="./images/ex3.png" alt="" class="pp">
                 </div>
                 <div class="row-2">
                     <img src="./images/ex4.png" alt="">
                     <img src="./images/ex5.jpg" alt="">
-                    <img src="./images/ex6.jpg" alt="">
+                    <img src="./images/ex6.jpg" alt="" class="pp">
                 </div>
             </div>
         </section>
-        <section class="bmi">
-            <div class="title">
+        <section>
+            <div class="bmi">
                 <h3 class="bmi-title">BMI Calculator</h3>
                 <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere, regardless
                     of income or access to a gym.</p>
@@ -175,12 +184,63 @@
                     <h3 class="bmi-cal-title">Calculate your BMI</h3>
                     <p class="description">Free Body Mass Index calculator gives out the BMI value and categorizes
                         BMI based on provided information from WHO and CDC for both adults and children.</p>
-                </div>
+                        <div class="foorm">
+                            <form action="">
+                                <input type="number" name="" id="a" placeholder="Height/cm">
+                                <input type="number" name="" id="a" placeholder="Weight/kg">
+                                <input type="number" name="" id="a" placeholder="Age">
+                                <select name="gender" id="sex">
+                                    <option value="">Sex</option>
+                                </select>
+                                
+                            </form>
+                            <select name="factors" id="fac">
+                                <option value="">Select an activity factor</option>
+                            </select>
+                            <button class="mile-btn btn banner-btn">Calculate</button>
+                        </div>
+                        
+                    </div>
 
+            </section>
+            <section class="container-goodlife">
+                <div class="good-title">
+                    <h2>Good Life Moments</h2>
+                </div>
+                <div class="goodlife display-flex">
+                    <div class="goodbox-1">
+                        <div class="goodlife-fitness">
+                            <p class="goodlife-title">GoodLife <br> <span>FITNESS</span></p>
+                        </div>
+                        <div class="good-para">
+                            <p>"I needed to do something all my own that would make me happy, lose the weight I'd gained and get into the best shape of my life. My confidence started to soar with the weight dropping, muscles toning and strenthening, and people noticing the physical changes."</p>
+                            <p class="good-name">Karen W</p>
+                        </div>
+                        
+                    </div>
+                    <div class="goodbox-2">
+                        <div class="goodlife-fitness">
+                            <p class="goodlife-title">GoodLife <br> <span>FITNESS</span></p>
+                        </div>
+                        <div class="good-para">
+                            <p>"Since I started going to Fitness gym, my confidence sky rocketed. What makes me feel even better since I've been going to Fitness is that the people around me see a huge difference and want me to educate them about a healthier life including what I do for exercise, and diet."</p>
+                            <p class="good-name">Lizz</p>
+                        </div>
+                    </div>
+                    <div class="goodbox-3">
+                        <div class="goodlife-fitness">
+                            <p class="goodlife-title">GoodLife <br> <span>FITNESS</span></p>
+                        </div>
+                        <div class="good-para">
+                            <p>"In 2023 I was diagnosed with severe onset Rheumatoid Arthritis where every joint in my body was affected. It took me an hour every morning to fully engage my body. There was no walking, I shuffled. I was able to get back to the Fitness gym but with determination and beleiving I did it."</p>
+                            <p class="good-name">Deborah L</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </section>
-        <section class="team container">
+        <section class="container">
             <div class="title">
                 <h3 class="habit-title">Meet Our Team</h3>
                 <p class="description">We believe fitness should be accessible to everyone, everywhere, regardless

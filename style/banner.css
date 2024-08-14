@@ -53,6 +53,7 @@
     border-radius: 42px;
     font-weight: 600;
     font-size: 1.1rem;
+    background-color: #E6533C;
     color: whitesmoke;
 }
 
@@ -133,4 +134,29 @@
     font-weight: 400;
     font-size: .8rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title {
+        font-weight: 600;
+        font-size: 3.5rem;
+        color: whitesmoke;
+        line-height: 90px;
+        margin-bottom: 28px;
+
+    }
+    .banner-text{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .banner-description{
+        width: 60%;
+    }
+  .banner-img{
+    margin-top: 150px;
+  }
 }

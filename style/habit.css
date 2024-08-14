@@ -6,7 +6,7 @@
 .title{
     width: 671px;
     height: 120px;
-    margin: 0 auto;
+    margin: 58px auto;
     justify-content: center;
     text-align: center;
 }
@@ -47,4 +47,20 @@
     font-size: .8rem;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 0%;
+}
+@media screen and (max-width: 576px){
+    .habit{
+        margin-top: 870px;
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .title{
+        margin-top: 2300PX;
+        width: 60%;
+    }
+    .habit-card{
+        align-items: center;
+    }
+ 
 }

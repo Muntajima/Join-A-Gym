@@ -83,3 +83,22 @@
     color: rgba(255, 255, 255, 0.5);
     line-height: 24px;
 }
+.burger{
+  color: whitesmoke;
+  font-size: 1.6rem;
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .display-flex{
+    flex-direction: column;
+  }
+
+  .nav-links{
+    display: none;
+  }
+  .burger{
+    display: block;
+    padding-left: 240px;
+  }
+ 
+}
