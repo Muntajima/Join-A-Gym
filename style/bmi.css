@@ -12,11 +12,12 @@
     line-height: 24px;
     text-align: start;
 }
-.bmi-table{
+.bmi-2{
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(34, 34, 34, 1);
     height: 490px;
+    display: flex;
 }
 .table-chart{
     margin-left: 190px;
@@ -47,4 +48,16 @@ td{
     font-weight: 400;
     font-size: .8rem;
     color: rgba(255, 255, 255, 0.5);
+}
+.bmi-calculator{
+    width: 577px;
+    height: 390px;
+    margin-top: 52px;
+    margin-left: 175px;
+}
+.bmi-cal-title{
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: whitesmoke;
 }

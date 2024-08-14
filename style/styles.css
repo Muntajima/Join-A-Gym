@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: linear-gradient(
-        180deg, rgba(41, 40, 40, 0.8) 0%
+        0deg, rgba(41, 40, 40, 0.8) 0%
         rgba(46, 44, 44, 0) 100%
     );
   }
@@ -77,3 +77,9 @@
     font-size: 1.1rem;
     color: whitesmoke;
   }
+  .description{
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+}

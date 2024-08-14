@@ -16,12 +16,7 @@
     color: whitesmoke;
     margin-bottom: 14px;
 }
-.habit-description{
-    font-weight: 400;
-    font-size: .8rem;
-    color: rgba(255, 255, 255, 0.5);
-    line-height: 24px;
-}
+
 
 .habit-card{
     gap: 40px;

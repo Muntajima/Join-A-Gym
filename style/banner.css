@@ -6,8 +6,8 @@
     gap: 90px;
     margin-bottom: 250px;
     background-color: rgba(17, 17, 17, 1);
-    background-color: linear-gradient(
-        200deg, rgba(36, 36, 36, 0.814) 0%
+    background: linear-gradient(
+        180deg, rgba(17, 17, 17, 1) 0%
         rgba(119, 119, 119, 0) 100%
     );
  
@@ -49,6 +49,7 @@
 .banner-btn {
     width: 224px;
     height: 54px;
+    border: none;
     border-radius: 42px;
     font-weight: 600;
     font-size: 1.1rem;
@@ -79,6 +80,7 @@
     align-items: center;
     gap: 8px;
     margin-left: 763px;
+    margin-top: -556PX;
  
 }
 
@@ -114,7 +116,7 @@
     background-color: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur (65%);
     text-align: center;
-    margin-left: 1300px;
+    margin-left: 1107px;
     margin-top: -400px;
    
 }
