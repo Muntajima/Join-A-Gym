@@ -52,16 +52,31 @@ footer{
     margin: 35px;
 }
 @media screen and (max-width: 576px){
+    footer{
+        max-width: 393px;
+        max-height: 990px;
+    }
     .footer-box{
-        margin-top: 500PX;
+        margin-top: 30px;
         padding: 5px;
-        width: 60%;
+        width: 353px;
+        height: 748px;
+    }
+    .fitness{
+        width: 317px;
+        height: 200px;
+        margin-bottom: 50px;
     }
     .getStarted{
-        margin-top: 20px;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .hr-line{
-        margin-top: 600px;
+        width: 350px;
+        margin-top: 120px;
     }
-    
+   
+    .footer-bottom{
+        margin-top: 10px;
+    }
 }

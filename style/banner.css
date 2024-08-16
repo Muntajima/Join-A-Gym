@@ -1,10 +1,8 @@
 .banner {
     width: 1440px;
-    height: 715px;
     margin: 0 auto;
     display: flex;
     gap: 90px;
-    margin-bottom: 250px;
     background-color: rgba(17, 17, 17, 1);
     background: linear-gradient(
         180deg, rgba(17, 17, 17, 1) 0%
@@ -66,12 +64,11 @@
     height: 580px;
     margin-left: 45px;
 }
-.boxy{
-    margin-top: -560px;
-    margin-left: 180px;
-}
+
 
 .box1 {
+    display: flex;
+    justify-content: space-between;
     width: 206px;
     height: 96px;
     border-radius: 12px;
@@ -80,9 +77,9 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin-left: 763px;
-    margin-top: -556PX;
- 
+    position: relative;   
+    margin-top: -170px;
+    margin-left: -80px;
 }
 
 .round-btn {
@@ -117,10 +114,11 @@
     background-color: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur (65%);
     text-align: center;
-    margin-left: 1107px;
-    margin-top: -400px;
-   
-}
+    position: relative;
+    margin-top: -440px;
+    margin-left: 220px;
+   }
+
 .box2-title {
     font-weight: 800;
     font-size: 2.5rem;
@@ -141,9 +139,10 @@
     .banner{
         flex-direction: column;
     }
-    .banner-title {
+    .banner-title, .shape {
+        width: 285px;
         font-weight: 600;
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         color: whitesmoke;
         line-height: 90px;
         margin-bottom: 28px;
@@ -156,7 +155,41 @@
     .banner-description{
         width: 60%;
     }
+    .banner-btns{
+        width: 100%;
+    }
+    .banner-btn{
+        width: 169px;
+        height: 54px;
+    }
   .banner-img{
+    width: 353px;
     margin-top: 150px;
+    margin-left: 5px;
   }
+  .box1{
+    width: 156px;
+    height: 73px;
+    margin-top: -350px;
+    margin-left: 10px;
+  }
+.box1-title{
+    font-size: 1.2rem;
+}
+.box1-description{
+    font-size: .8rem;
+}
+.box2{
+    width: 146px;
+    height: 74px;
+    margin-top: -280px;
+    margin-left: 200px;
+}
+.box2-title{
+    font-size: 1.9rem;
+}
+.box2-description{
+    font-size: .6rem;
+}
+
 }

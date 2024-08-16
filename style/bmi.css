@@ -99,11 +99,16 @@ input, select{
 }
 @media screen and (max-width: 576px){
     .bmi, .bmi-calculator{
-        width: 60%;
-        margin-left: 30px;
+        width: 353px;
+        margin: 35px 25px;
     }
-    .bmi-2{
+      .bmi-2{
+        width: 394px;
+        height: 840px;
         flex-direction: column;
+    }
+    .bmi-chart{
+        font-size: 1rem;
     }
     .table-chart{
         margin-left: 20px;
@@ -111,7 +116,23 @@ input, select{
     .bmi-cal-title, .bmi-title{
         font-size: 20px;
     }
-    form{
-        width: 10%;
+    .foorm{
+        width: 353px;
     }
+    
+    input, .bodmas{
+        width: 150px;
+        height: 48px;
+    }
+    #sex{
+        width: 170px;
+    }
+    #fac{
+        width: 350px;
+    }
+    .bmi-btn{
+        width: 224px;
+        height: 54px;
+    }
+
 }

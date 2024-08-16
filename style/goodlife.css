@@ -72,8 +72,9 @@
 }
 @media screen and (max-width: 576px){
     .container-goodlife{
-        width: 60%;
-        margin-top: 450px;
+        width: 353px;
+        margin-top: 50px;
+        margin-left: 20px;
     }
     .good-title{
         font-size: 2rem;

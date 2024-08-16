@@ -28,7 +28,7 @@
     margin: 0 auto;
     margin-top: 100px;
   }
- 
+
   nav{
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@
     font-size: 2.2rem;
     font-style: italic;
   }
-  .navbar div{
+  .nav-lists{
     width: 465px;
     height: 40px;
     align-items: center;
@@ -92,13 +92,21 @@
   .display-flex{
     flex-direction: column;
   }
+  .container{
+    width: 353px;
+  }
+  .nav-lists{
+    display: none;
+  }
+  .navbar{
+    margin-top: 50px;
+   }
 
   .nav-links{
     display: none;
   }
   .burger{
     display: block;
-    padding-left: 240px;
   }
  
 }
