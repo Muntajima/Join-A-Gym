@@ -27,8 +27,8 @@
     height: 270px;
     display: flex;
     gap: 20px;
-    margin: 10px;
-    
+    margin-bottom: 20px;
+
 }
 
 .row img{
@@ -36,9 +36,16 @@
     height: 272px;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 18px;
-    margin: 0px;
+    margin: 20px 10px;
     background: rgba(0, 0, 0, 0.2);
     opacity: 80%;
+}
+.row-11{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.row-22{
+    margin-left: 10px;
 }
 .name{
     font-weight: 900;
